@@ -2,34 +2,39 @@
 
 import { 
   SiPython, SiHtml5, SiCss3, SiJavascript, SiReact, 
-  SiTypescript, SiNextdotjs, SiTailwindcss, SiMongodb 
-} from 'react-icons/si';
+  SiTypescript, SiNextdotjs, SiTailwindcss, SiMongodb, 
+  SiGit, SiGithub, SiPostgresql 
+} from "react-icons/si";
 import { 
-  FaGitAlt, FaNodeJs, FaBolt, FaBroadcastTower, FaDatabase, FaVideo 
-} from 'react-icons/fa';
+  FaNodeJs, FaBolt, FaBroadcastTower, FaDatabase, FaVideo, FaCogs 
+} from "react-icons/fa";
 
 export default function Skills() {
   const skills = [
-    { name: "Python", icon: <SiPython className="w-6 h-6"/> },
-    { name: "HTML5", icon: <SiHtml5 className="w-6 h-6"/> },
-    { name: "CSS3", icon: <SiCss3 className="w-6 h-6"/> },
-    { name: "JavaScript", icon: <SiJavascript className="w-6 h-6"/> },
-    { name: "React.js", icon: <SiReact className="w-6 h-6"/> },
-    { name: "TypeScript", icon: <SiTypescript className="w-6 h-6"/> },
-    { name: "Next.js", icon: <SiNextdotjs className="w-6 h-6"/> },
-    { name: "Tailwind CSS", icon: <SiTailwindcss className="w-6 h-6 text-teal-500"/> },
-    { name: "Node.js", icon: <FaNodeJs className="w-6 h-6 text-green-600"/> },
-    { name: "Express", icon: <FaBolt className="w-6 h-6 text-gray-700"/> },
-    { name: "MongoDB", icon: <SiMongodb className="w-6 h-6 text-green-500"/> },
-    { name: "Mongoose", icon: <FaDatabase className="w-6 h-6 text-red-600"/> }, // ⬅ Added
-    { name: "Socket.io", icon: <FaBroadcastTower className="w-6 h-6 text-purple-500"/> },
-    { name: "WebRTC", icon: <FaVideo className="w-6 h-6 text-blue-500"/> }, // ⬅ Added
-    { name: "ZeroMQ", icon: <FaBolt className="w-6 h-6 text-yellow-600"/> },
-    { name: "Git & GitHub", icon: <FaGitAlt className="w-6 h-6 text-orange-600"/> },
+    { name: "Python", icon: <SiPython className="w-6 h-6" color="#3776AB" /> },
+    { name: "HTML5", icon: <SiHtml5 className="w-6 h-6" color="#E34F26" /> },
+    { name: "CSS3", icon: <SiCss3 className="w-6 h-6" color="#1572B6" /> },
+    { name: "JavaScript", icon: <SiJavascript className="w-6 h-6" color="#F7DF1E" /> },
+    { name: "React.js", icon: <SiReact className="w-6 h-6" color="#61DAFB" /> },
+    { name: "TypeScript", icon: <SiTypescript className="w-6 h-6" color="#3178C6" /> },
+    { name: "Next.js", icon: <SiNextdotjs className="w-6 h-6" color="#000000" /> },
+    { name: "Tailwind CSS", icon: <SiTailwindcss className="w-6 h-6" color="#38BDF8" /> },
+    { name: "Node.js", icon: <FaNodeJs className="w-6 h-6" color="#339933" /> },
+    { name: "Express", icon: <FaBolt className="w-6 h-6" color="#000000" /> },  // ⚡ fallback
+    { name: "NestJS", icon: <FaBolt className="w-6 h-6" color="#E0234E" /> },  // 🐱‍👤 fallback
+    { name: "REST API", icon: <FaCogs className="w-6 h-6" color="#0A7CFF" /> }, // 🌐 added
+    { name: "MongoDB", icon: <SiMongodb className="w-6 h-6" color="#47A248" /> },
+    { name: "Mongoose", icon: <FaDatabase className="w-6 h-6" color="#800000" /> }, // 📦 fallback
+    { name: "PostgreSQL", icon: <SiPostgresql className="w-6 h-6" color="#4169E1" /> },
+    { name: "Socket.io", icon: <FaBroadcastTower className="w-6 h-6" color="#010101" /> }, // 📡 fallback
+    { name: "WebRTC", icon: <FaVideo className="w-6 h-6" color="#3333FF" /> },   // 🎥 fallback
+    { name: "ZeroMQ", icon: <FaBolt className="w-6 h-6" color="#DF0000" /> },    // ⚡ fallback
+    { name: "Git", icon: <SiGit className="w-6 h-6" color="#F05032" /> },
+    { name: "GitHub", icon: <SiGithub className="w-6 h-6" color="#181717" /> },
   ];
 
   return (
-    <section id="skills" className="py-12 px-6 bg-blue-100">
+    <section id="skills" className="py-12 px-6 bg-blue-100 dark:bg-gray-900">
       <h2 className="text-3xl font-bold mb-6">🛠 Skills</h2>
       <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {skills.map((skill, index) => (

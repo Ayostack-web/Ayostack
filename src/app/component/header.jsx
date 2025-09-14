@@ -85,7 +85,7 @@ export default function Header() {
       <div className="flex justify-between items-center max-w-[1200px] mx-auto px-4 relative">
         {/* Logo */}
 
-  <Image className="h-18"
+  <Image className="rounded-4xl  h-18"
   src="/file_0000000034ac622f83b2c662380ff859~2.png"
   alt="Ayostack Logo"
   width={100}

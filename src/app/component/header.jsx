@@ -97,11 +97,11 @@ export default function Header() {
           <Link href="#about" className="text-blue-100 hover:text-white transition">
             About
           </Link>
-          <Link href="#skills" className="text-blue-100 hover:text-white transition">
-            Skills
-          </Link>
           <Link href="#projects" className="text-blue-100 hover:text-white transition">
             Project
+          </Link>
+          <Link href="#skills" className="text-blue-100 hover:text-white transition">
+            Skills
           </Link>
           <Link href="#contacts" className="text-blue-100 hover:text-white transition">
             Contact
@@ -122,16 +122,16 @@ export default function Header() {
       {/* Mobile Nav */}
       {isOpen && (
         <nav className="flex flex-col md:hidden bg-[#071026] absolute top-16 right-0 p-4 w-[200px] z-10 gap-4">
-          <Link href="#" className="text-blue-100 hover:text-white transition">
-            Home
-          </Link>
           <Link href="#about" className="text-blue-100 hover:text-white transition">
             About
           </Link>
-          <Link href="#Group" className="text-blue-100 hover:text-white transition">
-            Units
+          <Link href="#projects" className="text-blue-100 hover:text-white transition">
+            Project
           </Link>
-          <Link href="#contact" className="text-blue-100 hover:text-white transition">
+          <Link href="#skills" className="text-blue-100 hover:text-white transition">
+            Skills
+          </Link>
+          <Link href="#contacts" className="text-blue-100 hover:text-white transition">
             Contact
           </Link>
         </nav>

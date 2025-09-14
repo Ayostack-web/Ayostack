@@ -11,7 +11,7 @@ export default function AboutMe() {
           💻 I'm Ayokunle Shittu | Full-Stack Developer | 🚀 Tech Enthusiast | 🎨 UI Lover
         </p>
         <p className="text-gray-950 dark:text-gray-900 mb-2 text-center">
-          I turn ideas into sleek, modern web apps. I build with <strong>React, Next.js, Tailwind CSS, Node.js, Express, MongoDB, and Socket.io</strong>, creating smooth, user-friendly experiences.
+          I turn ideas into sleek, modern web apps. I build with <strong>React, Next.js, Tailwind CSS, Node.js, Express,Nest.js, Postgresql, and Socket.io</strong>, creating smooth, user-friendly experiences.
         </p>
         <p className="text-gray-950 dark:text-gray-900 text-center">
           🌟 Always learning, experimenting, and bringing creative solutions to life. <br />

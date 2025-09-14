@@ -22,12 +22,10 @@ export default function Skills() {
     { name: "Node.js", icon: <FaNodeJs className="w-6 h-6" color="#339933" /> },
     { name: "Express", icon: <FaBolt className="w-6 h-6" color="#000000" /> },  // ⚡ fallback
     { name: "NestJS", icon: <FaBolt className="w-6 h-6" color="#E0234E" /> },  // 🐱‍👤 fallback
-    { name: "REST API", icon: <FaCogs className="w-6 h-6" color="#0A7CFF" /> }, // 🌐 added
     { name: "MongoDB", icon: <SiMongodb className="w-6 h-6" color="#47A248" /> },
     { name: "Mongoose", icon: <FaDatabase className="w-6 h-6" color="#800000" /> }, // 📦 fallback
     { name: "PostgreSQL", icon: <SiPostgresql className="w-6 h-6" color="#4169E1" /> },
     { name: "Socket.io", icon: <FaBroadcastTower className="w-6 h-6" color="#010101" /> }, // 📡 fallback
-    { name: "WebRTC", icon: <FaVideo className="w-6 h-6" color="#3333FF" /> },   // 🎥 fallback
     { name: "ZeroMQ", icon: <FaBolt className="w-6 h-6" color="#DF0000" /> },    // ⚡ fallback
     { name: "Git", icon: <SiGit className="w-6 h-6" color="#F05032" /> },
     { name: "GitHub", icon: <SiGithub className="w-6 h-6" color="#181717" /> },

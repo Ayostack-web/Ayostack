@@ -94,16 +94,16 @@ export default function Header() {
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex gap-4">
-          <Link href="#" className="text-blue-100 hover:text-white transition">
-            Home
-          </Link>
           <Link href="#about" className="text-blue-100 hover:text-white transition">
             About
           </Link>
-          <Link href="#Group" className="text-blue-100 hover:text-white transition">
-            Units
+          <Link href="#skills" className="text-blue-100 hover:text-white transition">
+            Skills
           </Link>
-          <Link href="#contact" className="text-blue-100 hover:text-white transition">
+          <Link href="#projects" className="text-blue-100 hover:text-white transition">
+            Project
+          </Link>
+          <Link href="#contacts" className="text-blue-100 hover:text-white transition">
             Contact
           </Link>
         </nav>

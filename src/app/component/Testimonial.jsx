@@ -31,7 +31,7 @@ export default function Testimonials() {
   }, []);
 
   return (
-    <section className="text-center py-5 px-5 bg-blue-100 backdrop-blur-md rounded-2xl">
+    <section className="text-center text-blue-200 py-5 px-5 bg-[#071026] backdrop-blur-md rounded-2xl">
       <h2 className="text-2xl mb-10 text-color font-bold">💬 Testimonials</h2>
       <div className="max-w-[700px] mx-auto animate-fadeIn">
         <p className="italic text-2xl text-color">

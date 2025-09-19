@@ -81,17 +81,17 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-[#071026] text-white py-4 fixed top-0 left-0 right-0 z-[1000]">
+    <header className="bg-[#17223a] text-white py-4 fixed top-0 left-0 right-0 z-[1000]">
       <div className="flex justify-between items-center max-w-[1200px] mx-auto px-4 relative">
         {/* Logo */}
 
-  <Image className="rounded-4xl  h-18"
+  <Image className="rounded-4xl h-18"
   src="/file_0000000034ac622f83b2c662380ff859~2.png"
   alt="Ayostack Logo"
   width={100}
   height={30}
-  priority /> <h1 className="text-blue-200 animate-pulse" >AYOSTACK</h1>
-
+  priority /> 
+              <h1 className="animate-pulse text-blue-200">AYOSTACK</h1>
         {/* Desktop Nav */}
         <nav className="hidden md:flex gap-4">
           <Link href="#about" className="text-blue-100 hover:text-white transition">

@@ -20,7 +20,7 @@
 }
 
 body,html {
-  background: var(--background);
+  background: #071026;;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
   scroll-behavior: smooth;
@@ -38,11 +38,12 @@ body,html {
   
  
   .project {
-    background: var(--color-blue-200);
+    background: #071026;
+    color:var(--color-blue-200);
     padding: 1.5rem;
     border-radius: 10px;
     width: 300px;
-    box-shadow: 5px 5px 7px rgb(84, 83, 83);
+    box-shadow: 5px 5px 7px rgb(224, 222, 222);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   } 
   
@@ -53,7 +54,7 @@ body,html {
   
   /* Floating Card Hover*/
   .floating-card {
-    background: var(--color-blue-100);
+    background: #071026;
     padding: 2rem;
     border-radius: 12px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);

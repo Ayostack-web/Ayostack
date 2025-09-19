@@ -21,7 +21,7 @@ export default function Projects() {
 
   return (
     <section id="projects" className="floating-card section tilt-card section">
-      <h1 className="text-3xl font-bold my-6 text-center"  >Featured Projects</h1>
+      <h1 className="text-3xl font-bold my-6 text-center text-blue-200"  >Featured Projects</h1>
       <br />
       <div className="projects hero-text">
         {projects.map((project, index) => (

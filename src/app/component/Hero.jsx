@@ -1,7 +1,7 @@
 export default function HeroSection() {
   return (
     <section
-      className='relative h-[60vh] mt-25 flex items-center justify-center text-center bg-cover bg-center bg-no-repeat bg-[url("/toffee-8789.JPG")]'
+      className='relative h-[60vh] mt-20 flex items-center justify-center text-center bg-cover bg-center bg-no-repeat bg-[url("/toffee-8789.JPG")]'
     >
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-black/60"></div>

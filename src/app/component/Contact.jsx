@@ -67,7 +67,7 @@ export default function ContactForm() {
             type="submit"
             className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 rounded-md transition-all"
           >
-            Send
+            Send A Message
           </button>
         </form>
         {status && <p className="mt-4 text-center">{status}</p>}

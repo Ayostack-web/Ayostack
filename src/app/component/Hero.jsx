@@ -7,7 +7,7 @@ export default function HeroSection() {
   return (
     <section
       id="hero"
-      className="w-full min-h-[90vh] my-16  flex items-center justify-center bg-gradient-to-br from-gray-400 via-gray-700 to-black text-white relative"
+      className="w-full min-h-[100vh] my-26  flex items-center justify-center bg-gradient-to-br from-gray-400 via-gray-700 to-black text-white relative"
     >
       <div className="container mx-auto px-6 md:px-12 flex flex-col-reverse md:flex-row items-center gap-10 relative z-10">
         

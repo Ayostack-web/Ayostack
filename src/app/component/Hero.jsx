@@ -7,7 +7,7 @@ export default function HeroSection() {
   return (
     <section
       id="hero"
-      className="w-full min-h-[100vh] my-20  flex items-center justify-center bg-gradient-to-br from-gray-400 via-gray-700 to-black text-white relative"
+      className="w-full h-screen flex items-center justify-center bg-gradient-to-br from-gray-400 via-gray-700 to-black text-white relative"
     >
       <div className="container mx-auto px-6 md:px-12 flex flex-col-reverse md:flex-row items-center gap-10 relative z-10">
         
@@ -46,7 +46,7 @@ export default function HeroSection() {
               View My Work <FaArrowRight />
             </a>
             <a
-              href="https://www.linkedin.com/in/ayokunle-shittu-560a9a162?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
+              href="https://www.linkedin.com/in/ayokunle-shittu-560a9a162"
               className="px-6 py-3 border border-gray-500 hover:border-blue-400 hover:text-blue-400 rounded-xl transition"
             >
               Let's Connect
@@ -60,9 +60,8 @@ export default function HeroSection() {
             <Image
               src="/toffee-8789.JPG" // change to your own profile image
               alt="Profile"
-              layout="fill"
-              objectFit="cover"
-              className="hover:scale-105 transition-transform duration-500"
+              fill
+              className="object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>
         </div>

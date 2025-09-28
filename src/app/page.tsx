@@ -14,8 +14,8 @@ export default function Home() {
   <HeroSection/>
   <About/>
   <Glass/>
+    <Skills/>
   <Project/>
-  <Skills/>
   <Testimonials/>
   <Contact/>
   <Footer/>

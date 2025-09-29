@@ -5,12 +5,12 @@ export default function Projects() {
     {
       title: "🌐 Portfolio Website",
       description: "A responsive, personal portfolio to showcase my skills, projects, and contact info — built with clean design and smooth interactions.",
-      link: "https://your-portfolio-url.com",
+      link: "https://omogbolahan-shittu.vercel.app/",
     },
     {
       title: "🍕 Pizza Ordering Website",
       description: "A sleek, responsive pizza ordering platform with interactive UI, real-time selections, and a tasty user experience.",
-      link: "https://pizza-heaven-ge4m.vercel.app/#menu",
+      link: "https://pizza-heaven-ge4m.vercel.app/",
     },
     {
       title: "⛪Fellowship Website",

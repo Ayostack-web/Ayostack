@@ -1,3 +1,6 @@
+// components/HeroSection.jsx
+"use client";
+
 import Image from "next/image";
 import { 
   FaArrowRight, FaCode, FaReact, FaJs, FaLaptopCode 
@@ -7,61 +10,64 @@ export default function HeroSection() {
   return (
     <section
       id="hero"
-      className="w-full h-screen flex items-center justify-center bg-gradient-to-br from-gray-400 via-gray-700 to-black text-white relative"
+      className="w-full min-h-screen flex items-center justify-center bg-gradient-to-br from-[#0f172a] via-[#1e293b] to-black text-white relative overflow-hidden"
     >
-      <div className="container mx-auto px-6 md:px-12 flex flex-col-reverse md:flex-row items-center gap-10 relative z-10">
+      <div className="container mx-auto px-6 lg:px-16 flex flex-col-reverse md:flex-row items-center gap-12 relative z-10">
         
-        {/* Left: Text */}
-        <div className="flex-1 text-center md:text-left">
-          <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-6">
+        {/* Left: Text Content */}
+        <div className="flex-1 text-center md:text-left space-y-6">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight">
             Hi, I’m{" "}
-            <span className="bg-gradient-to-r from-blue-400 to-teal-200 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-blue-400 via-teal-200 to-green-300 bg-clip-text text-transparent animate-text">
               Ayokunle Shittu
             </span>{" "}
             👋
           </h1>
 
-          {/* Roles with Icons */}
-          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 text-gray-300 mb-8">
-            <div className="flex items-center gap-2">
-              <FaCode className="text-blue-400" /> <span>Full-Stack Dev</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <FaReact className="text-cyan-400" /> <span>Next.js Enthusiast</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <FaJs className="text-yellow-400" /> <span>JavaScript Lover</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <FaLaptopCode className="text-pink-400" /> <span>TailwindCSS Magician</span>
-            </div>
+          {/* Roles as Badges */}
+          <div className="flex flex-wrap justify-center md:justify-start gap-3">
+            <span className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-sm">
+              <FaCode className="text-blue-400" /> Full-Stack Dev
+            </span>
+            <span className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-sm">
+              <FaReact className="text-cyan-400" /> Next.js Enthusiast
+            </span>
+            <span className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-sm">
+              <FaJs className="text-yellow-400" /> JavaScript Lover
+            </span>
+            <span className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-sm">
+              <FaLaptopCode className="text-pink-400" /> TailwindCSS Magician
+            </span>
           </div>
 
-          {/* Buttons */}
-          <div className="flex justify-center md:justify-start space-x-4">
+          {/* CTA Buttons */}
+          <div className="flex justify-center md:justify-start gap-4 pt-4">
             <a
               href="#projects"
-              className="px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-xl shadow-lg flex items-center gap-2 transition"
+              className="px-6 py-3 bg-gradient-to-r from-blue-500 to-teal-400 hover:from-blue-600 hover:to-teal-500 rounded-xl shadow-lg flex items-center gap-2 transition-transform hover:scale-105"
             >
               View My Work <FaArrowRight />
             </a>
             <a
               href="https://www.linkedin.com/in/ayokunle-shittu-560a9a162"
-              className="px-6 py-3 border border-gray-500 hover:border-blue-400 hover:text-blue-400 rounded-xl transition"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-6 py-3 border border-gray-500 hover:border-blue-400 hover:text-blue-400 rounded-xl transition-transform hover:scale-105"
             >
-              Let's Connect
+              Let’s Connect
             </a>
           </div>
         </div>
 
-        {/* Right: Image */}
-        <div className="flex-1 flex justify-center">
-          <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-blue-500 shadow-2xl">
+        {/* Right: Profile Image */}
+        <div className="flex-1 flex justify-center relative">
+          <div className="relative w-56 h-56 sm:w-72 sm:h-72 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-blue-500 shadow-[0_0_40px_rgba(59,130,246,0.6)]">
             <Image
-              src="/toffee-8789.JPG" // change to your own profile image
+              src="/toffee-8789.JPG" // replace with your image
               alt="Profile"
               fill
-              className="object-cover hover:scale-105 transition-transform duration-500"
+              priority
+              className="object-cover hover:scale-110 transition-transform duration-700"
             />
           </div>
         </div>

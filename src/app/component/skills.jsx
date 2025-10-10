@@ -3,7 +3,10 @@
 import { 
   SiPython, SiHtml5, SiCss3, SiJavascript, SiReact, 
   SiTypescript, SiNextdotjs, SiTailwindcss, SiMongodb, 
-  SiGit, SiGithub, SiPostgresql, SiDocker, SiVercel, SiRedis 
+  SiGit, SiGithub, SiPostgresql, SiDocker, SiVercel, SiRedis, 
+  SiFastapi,
+  SiPostman,
+  SiSwagger
 } from "react-icons/si";
 import { 
   FaNodeJs, FaBolt, FaBroadcastTower, FaDatabase, FaCubes, FaNetworkWired 
@@ -25,11 +28,11 @@ export default function Skills() {
       { name: "Python", icon: <SiPython className="w-6 h-6" color="#3776AB" /> },
       { name: "Node.js", icon: <FaNodeJs className="w-6 h-6" color="#339933" /> },
       { name: "Express", icon: <FaBolt className="w-6 h-6" color="#FFFFFF" /> }, // fallback
-      { name: "NestJS", icon: <FaBolt className="w-6 h-6" color="#E0234E" /> }, // fallback
-      { name: "REST API", icon: <FaNetworkWired className="w-6 h-6" color="#0EA5E9" /> }, // 🌐 fallback
       { name: "MongoDB", icon: <SiMongodb className="w-6 h-6" color="#47A248" /> },
       { name: "Mongoose", icon: <FaDatabase className="w-6 h-6" color="#800000" /> }, // fallback
       { name: "PostgreSQL", icon: <SiPostgresql className="w-6 h-6" color="#4169E1" /> },
+      { name: "FastApi", icon: <SiFastapi className="w-6 h-6" color="#4169E1" /> },
+      { name: "RestApi", icon: <SiSwagger className="w-6 h-6" color="#4169E1" /> },
     ],
     "Realtime / Messaging": [
       { name: "Socket.io", icon: <FaBroadcastTower className="w-6 h-6" color="#DF0000" /> },

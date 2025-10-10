@@ -4,7 +4,8 @@
 import { FaLaptopCode, FaRocket, FaPalette, FaEnvelope } from "react-icons/fa";
 import { 
   SiReact, SiNextdotjs, SiTailwindcss, SiNodedotjs, 
-  SiExpress, SiNestjs, SiPostgresql, SiSocketdotio 
+  SiExpress, SiNestjs, SiPostgresql, SiSocketdotio, 
+  SiFastapi
 } from "react-icons/si";
 
 export default function AboutMe() {
@@ -38,7 +39,7 @@ export default function AboutMe() {
           <SiTailwindcss title="Tailwind CSS" />
           <SiNodedotjs title="Node.js" />
           <SiExpress title="Express.js" />
-          <SiNestjs title="NestJS" />
+          <SiFastapi  title="Fastapi"   />
           <SiPostgresql title="PostgreSQL" />
           <SiSocketdotio title="Socket.io" />
         </div>

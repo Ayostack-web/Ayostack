@@ -4,7 +4,7 @@ export default function Projects() {
   const projects = [
     {
       title: "🌐 Portfolio Website",
-      description: "A responsive, personal portfolio to showcase my skills, projects, and contact info — built with clean design and smooth interactions.",
+      description: "A responsive, personal portfolio to showcase skills, projects, and contact info — built with clean design and smooth interactions.",
       link: "https://omogbolahan-shittu.vercel.app/",
     },
     {

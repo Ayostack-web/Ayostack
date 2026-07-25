@@ -21,12 +21,15 @@ export default function Header() {
           <Link href="#hero" className="inline-flex items-center rounded-full border border-blue-200/20 bg-blue-500/10 px-3 py-1 text-xs font-medium text-blue-200 hover:bg-blue-500/20 hover:text-white transition-colors">
             Home
           </Link>
+          <Link href="#about" className="inline-flex items-center rounded-full border border-blue-200/20 bg-blue-500/10 px-3 py-1 text-xs font-medium text-blue-200 hover:bg-blue-500/20 hover:text-white transition-colors">
+            About
+          </Link>
           <Link href="#experience" className="inline-flex items-center rounded-full border border-blue-200/20 bg-blue-500/10 px-3 py-1 text-xs font-medium text-blue-200 hover:bg-blue-500/20 hover:text-white transition-colors">
             Experience
           </Link>
 
-          <Link href="#skills" className="inline-flex items-center rounded-full border border-blue-200/20 bg-blue-500/10 px-3 py-1 text-xs font-medium text-blue-200 hover:bg-blue-500/20 hover:text-white transition-colors">
-            Skills
+          <Link href="#certifications" className="inline-flex items-center rounded-full border border-blue-200/20 bg-blue-500/10 px-3 py-1 text-xs font-medium text-blue-200 hover:bg-blue-500/20 hover:text-white transition-colors">
+            Certifications
           </Link>
         </nav>
 
@@ -47,12 +50,15 @@ export default function Header() {
           <Link href="#hero" onClick={() => setIsOpen(false)} className="inline-flex items-center rounded-full border border-blue-200/20 bg-blue-500/10 px-3 py-1.5 text-xs font-medium text-blue-200 hover:bg-blue-500/20 hover:text-white transition-colors">
             Home
           </Link>
+          <Link href="#about" onClick={() => setIsOpen(false)} className="inline-flex items-center rounded-full border border-blue-200/20 bg-blue-500/10 px-3 py-1.5 text-xs font-medium text-blue-200 hover:bg-blue-500/20 hover:text-white transition-colors">
+            About
+          </Link>
           <Link href="#experience" onClick={() => setIsOpen(false)} className="inline-flex items-center rounded-full border border-blue-200/20 bg-blue-500/10 px-3 py-1.5 text-xs font-medium text-blue-200 hover:bg-blue-500/20 hover:text-white transition-colors">
             Experience
           </Link>
 
-          <Link href="#skills" onClick={() => setIsOpen(false)} className="inline-flex items-center rounded-full border border-blue-200/20 bg-blue-500/10 px-3 py-1.5 text-xs font-medium text-blue-200 hover:bg-blue-500/20 hover:text-white transition-colors">
-            Skills
+          <Link href="#certifications" onClick={() => setIsOpen(false)} className="inline-flex items-center rounded-full border border-blue-200/20 bg-blue-500/10 px-3 py-1.5 text-xs font-medium text-blue-200 hover:bg-blue-500/20 hover:text-white transition-colors">
+            Certifications
           </Link>
         </nav>
       )}

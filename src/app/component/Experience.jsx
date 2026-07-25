@@ -30,7 +30,7 @@ export default function Experience() {
   return (
     <section
       id="experience"
-      className="py-14 px-6 bg-[#071026]"
+      className="py-10 px-6 bg-[#071026]"
     >
       <div className="max-w-4xl mx-auto">
         <motion.h2

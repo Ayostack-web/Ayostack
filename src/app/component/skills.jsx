@@ -19,6 +19,13 @@ export default function Skills() {
         { name: "Machine Learning with Python", issuer: "Anaconda", image: "/anaconda.png" },
       ],
     },
+    {
+      title: "Communication & API Architecture",
+      items: [
+        { name: "Twilio Programmable Messaging and Voice Professional Certificate", issuer: "Twilio", image: "/twilio-logo-svg-vector.svg" },
+        { name: "Microservices Foundations Professional Certificate", issuer: "Kong", image: "/Kongtype_Logo.jpg" },
+      ],
+    },
   ];
 
   return (

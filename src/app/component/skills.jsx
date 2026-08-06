@@ -22,7 +22,7 @@ export default function Skills() {
     {
       title: "Communication & API Architecture",
       items: [
-        { name: "Twilio Programmable Messaging and Voice Professional Certificate", issuer: "Twilio", image: "/twilio-logo-svg-vector.svg" },
+        { name: "Microsoft Azure AI Essentials Professional Certificate", issuer: "Microsoft", image: "/images.png" },
         { name: "Microservices Foundations Professional Certificate", issuer: "Kong", image: "/Kongtype_Logo.jpg" },
       ],
     },

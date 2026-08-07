@@ -1,4 +1,15 @@
 import type { NextConfig } from "next";
+import withSerwistInit from "@serwist/next";
+import createBundleAnalyzer from "@next/bundle-analyzer";
+
+const withSerwist = withSerwistInit({
+  swSrc: "src/app/sw.ts",
+  swDest: "public/sw.js",
+});
+
+const withBundleAnalyzer = createBundleAnalyzer({
+  enabled: process.env.ANALYZE === "true",
+});
 
 const nextConfig: NextConfig = {
   // Image optimization for SEO
@@ -72,4 +83,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default nextConfig;
+export default withBundleAnalyzer(withSerwist(nextConfig));

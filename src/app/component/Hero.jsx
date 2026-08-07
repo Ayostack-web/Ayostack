@@ -8,7 +8,7 @@ import {
   SiPostgresql,
   SiSupabase,
   SiTypescript,
-  SiNodedotjs,
+  SiCelery,
   SiDocker,
   SiRedis,
   SiGit,
@@ -25,7 +25,7 @@ const highlights = [
   {
     icon: <FaServer className="w-5 h-5" />,
     title: "Backend Systems",
-    description: "RESTful APIs and microservices built with Node.js and FastAPI, designed for reliability and scale.",
+    description: "RESTful APIs and distributed task processing built with FastAPI and Celery, designed for reliability and scale.",
   },
   {
     icon: <FaDatabase className="w-5 h-5" />,
@@ -44,7 +44,7 @@ const highlights = [
 const techStack = [
   { name: "Next.js", icon: SiNextdotjs, color: "#FFFFFF", hoverClass: "hover:text-white" },
   { name: "TypeScript", icon: SiTypescript, color: "#3178C6", hoverClass: "hover:text-sky-300" },
-  { name: "Node.js", icon: SiNodedotjs, color: "#339933", hoverClass: "hover:text-green-400" },
+  { name: "Celery", icon: SiCelery, color: "#37814A", hoverClass: "hover:text-green-400" },
   { name: "FastAPI", icon: SiFastapi, color: "#009688", hoverClass: "hover:text-teal-300" },
   { name: "PostgreSQL", icon: SiPostgresql, color: "#4169E1", hoverClass: "hover:text-blue-300" },
   { name: "Supabase", icon: SiSupabase, color: "#3ECF8E", hoverClass: "hover:text-emerald-400" },

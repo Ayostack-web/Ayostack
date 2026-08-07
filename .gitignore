@@ -24,6 +24,10 @@
 .DS_Store
 *.pem
 
+# serwist
+public/sw*
+public/swe-worker*
+
 # debug
 npm-debug.log*
 yarn-debug.log*

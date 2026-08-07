@@ -1,5 +1,6 @@
 import { Analytics } from "@vercel/analytics/next";
-import type { Metadata } from "next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import { Sora, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
@@ -106,8 +107,24 @@ export const metadata: Metadata = {
 
   icons: {
     icon: "/favicon.ico",
-    apple: "/favicon.ico",
+    apple: "/icons/icon-192x192.png",
   },
+
+  applicationName: "Ayostack",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "black-translucent",
+    title: "Ayostack",
+  },
+  formatDetection: {
+    telephone: false,
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#071026",
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({
@@ -122,6 +139,7 @@ export default function RootLayout({
       >
         {children}
         <Analytics />
+        <SpeedInsights />
 
         {/* 🔥 CONSOLIDATED STRUCTURED DATA - Combined Schema */}
         <Script

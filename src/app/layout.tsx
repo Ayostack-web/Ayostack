@@ -30,53 +30,54 @@ export const metadata: Metadata = {
 
   title: {
     default:
-      "Full-Stack Software Engineer Nigeria | Next.js, Nest.js, PostgreSQL | Ayokunle Shittu",
+      "Full-Stack Software Engineer Nigeria | Next.js, FastAPI, PostgreSQL | Ayokunle Shittu",
     template: "%s | Ayostack",
   },
 
   description:
-    "Ayokunle Shittu - Full-Stack Software Engineer & Product Engineer in Nigeria. Expert in building scalable Next.js applications, Nest.js REST APIs, PostgreSQL databases, and real-time systems. Specialized in frontend (React, TypeScript), backend (Node.js, Nest.js), and data-driven solutions.",
+    "Ayokunle Shittu - Full-Stack Software Engineer & Product Engineer in Nigeria. Expert in building scalable Next.js applications, FastAPI REST APIs, PostgreSQL databases, and real-time systems. Specialized in frontend (React, TypeScript), backend (Python, FastAPI), and data-driven solutions.",
 
   keywords: [
     "Full Stack Developer Nigeria",
     "Next.js Developer Lagos",
-    "Nest.js REST API Developer",
-    "Node.js Backend Developer",
+    "FastAPI REST API Developer",
+    "Python Backend Developer",
+    "Celery Task Queue Developer",
     "PostgreSQL Database Developer",
     "React TypeScript Developer",
     "Web Application Developer Nigeria",
     "Scalable Web Applications",
     "Real-time Systems Developer",
-    "Full Stack JavaScript Developer",
-    "Next.js Nest.js Developer",
+    "Full Stack Python Developer",
+    "Next.js FastAPI Developer",
     "Data-Driven Solutions",
     "REST API Development",
-    "TypeScript Backend Development",
+    "TypeScript Frontend Development",
     "Web Development Services Nigeria",
     "Product Engineer Africa",
     "SaaS Developer",
-    "Prisma ORM Expert",
+    "Redis Cache Developer",
     "Tailwind CSS Developer",
     "Vercel Deployment Expert",
     "Database Design Developer",
-    "Full Stack JavaScript Nigeria",
+    "Full Stack Developer Lagos",
   ],
 
   authors: [{ name: "Ayokunle Shittu" }],
   creator: "Ayokunle Shittu",
 
   openGraph: {
-    title: "Full-Stack Developer Nigeria | Ayokunle Shittu | Next.js & Nest.js Expert",
+    title: "Full-Stack Developer Nigeria | Ayokunle Shittu | Next.js & FastAPI Expert",
     description:
-      "Expert Full-Stack Developer specializing in Next.js, Nest.js, PostgreSQL, and scalable web applications. Building high-performance products for startups and enterprises across Africa.",
+      "Expert Full-Stack Developer specializing in Next.js, FastAPI, PostgreSQL, and scalable web applications. Building high-performance products for startups and enterprises across Africa.",
     url: "https://www.ayostack.dev",
     siteName: "Ayostack",
     images: [
       {
-        url: "https://www.ayostack.dev/og-image.png",
+        url: "https://www.ayostack.dev/og-image.png?v=20260807",
         width: 1200,
         height: 630,
-        alt: "Ayokunle Shittu - Full-Stack Developer Portfolio - Next.js, Nest.js, PostgreSQL",
+        alt: "Ayokunle Shittu - Full-Stack Developer Portfolio - Next.js, FastAPI, PostgreSQL",
       },
     ],
     locale: "en_US",
@@ -85,10 +86,10 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Full-Stack Developer Nigeria | Next.js, Nest.js, PostgreSQL",
+    title: "Full-Stack Developer Nigeria | Next.js, FastAPI, PostgreSQL",
     description:
-      "Ayokunle Shittu - Expert Full-Stack Developer building scalable Next.js apps, Nest.js APIs, and PostgreSQL databases. Available for freelance & full-time roles.",
-    images: ["https://www.ayostack.dev/og-image.png"],
+      "Ayokunle Shittu - Expert Full-Stack Developer building scalable Next.js apps, FastAPI APIs, and PostgreSQL databases. Available for freelance & full-time roles.",
+    images: ["https://www.ayostack.dev/og-image.png?v=20260807"],
     creator: "@ayostack",
     site: "@ayostack",
   },
@@ -155,7 +156,7 @@ export default function RootLayout({
                   "@id": "https://www.ayostack.dev#person",
                   name: "Ayokunle Shittu",
                   url: "https://www.ayostack.dev",
-                  image: "https://www.ayostack.dev/preview.png",
+                  image: "https://www.ayostack.dev/og-image.png?v=20260807",
                   jobTitle: "Full-Stack Developer & Product Engineer",
                   worksFor: {
                     "@type": "Organization",
@@ -168,8 +169,9 @@ export default function RootLayout({
                   ],
                   knowsAbout: [
                     "Next.js",
-                    "Nest.js",
-                    "Node.js",
+                    "FastAPI",
+                    "Python",
+                    "Celery",
                     "React.js",
                     "TypeScript",
                     "PostgreSQL",
@@ -178,7 +180,7 @@ export default function RootLayout({
                     "Web Application Development",
                     "Backend Development",
                     "Full-Stack Development",
-                    "Prisma ORM",
+                    "Redis",
                     "Tailwind CSS",
                     "Real-time Systems",
                     "WebSocket",
@@ -192,8 +194,8 @@ export default function RootLayout({
                   "@id": "https://www.ayostack.dev#organization",
                   name: "Ayostack",
                   url: "https://www.ayostack.dev",
-                  logo: "https://www.ayostack.dev/preview.png",
-                  description: "Full-stack web development services specializing in Next.js, Nest.js, and scalable web applications",
+                  logo: "https://www.ayostack.dev/og-image.png?v=20260807",
+                  description: "Full-stack web development services specializing in Next.js, FastAPI, and scalable web applications",
                   foundingDate: "2024",
                   founder: {
                     "@type": "Person",
@@ -233,6 +235,21 @@ export default function RootLayout({
                       item: "https://www.ayostack.dev#skills",
                     },
                   ],
+                },
+                {
+                  "@type": "WebSite",
+                  "@id": "https://cssf-funaab.vercel.app#website",
+                  name: "CSSF FUNAAB",
+                  url: "https://cssf-funaab.vercel.app",
+                  description:
+                    "Official website of the Cherubim and Seraphim Unification Campus Fellowship (CSSF), FUNAAB Chapter, built by Ayokunle Shittu.",
+                  inLanguage: "en-US",
+                  author: {
+                    "@id": "https://www.ayostack.dev#person",
+                  },
+                  publisher: {
+                    "@id": "https://www.ayostack.dev#person",
+                  },
                 },
               ],
             }),

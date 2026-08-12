@@ -1,7 +1,6 @@
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata, Viewport } from "next";
-import Script from "next/script";
 import { Sora, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -90,8 +89,8 @@ export const metadata: Metadata = {
     description:
       "Ayokunle Shittu - Expert Full-Stack Developer building scalable Next.js apps, FastAPI APIs, and PostgreSQL databases. Available for freelance & full-time roles.",
     images: ["https://www.ayostack.dev/og-image.png?v=20260807"],
-    creator: "@ayostack",
-    site: "@ayostack",
+    creator: "@ayle_2",
+    site: "@ayle_2",
   },
 
   robots: {
@@ -142,11 +141,9 @@ export default function RootLayout({
         <Analytics />
         <SpeedInsights />
 
-        {/* 🔥 CONSOLIDATED STRUCTURED DATA - Combined Schema */}
-        <Script
-          id="structured-data"
+        {/* CONSOLIDATED STRUCTURED DATA - Combined Schema */}
+        <script
           type="application/ld+json"
-          strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
@@ -164,8 +161,8 @@ export default function RootLayout({
                   },
                   sameAs: [
                     "https://github.com/Ayostack-web",
-                    "https://linkedin.com/in/ayokunleshittu",
-                    "https://twitter.com/ayle_2",
+                    "https://www.linkedin.com/in/ayokunleshittu/",
+                    "https://x.com/ayle_2",
                   ],
                   knowsAbout: [
                     "Next.js",
@@ -190,7 +187,7 @@ export default function RootLayout({
                   ],
                 },
                 {
-                  "@type": "Organization",
+                  "@type": ["Organization", "ProfessionalService"],
                   "@id": "https://www.ayostack.dev#organization",
                   name: "Ayostack",
                   url: "https://www.ayostack.dev",
@@ -208,8 +205,8 @@ export default function RootLayout({
                   },
                   sameAs: [
                     "https://github.com/Ayostack-web",
-                    "https://linkedin.com/in/ayokunleshittu",
-                    "https://twitter.com/ayle_2",
+                    "https://www.linkedin.com/in/ayokunleshittu/",
+                    "https://x.com/ayle_2",
                   ],
                   areaServed: "NG",
                 },

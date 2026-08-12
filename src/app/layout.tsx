@@ -153,7 +153,7 @@ export default function RootLayout({
                   "@id": "https://www.ayostack.dev#person",
                   name: "Ayokunle Shittu",
                   url: "https://www.ayostack.dev",
-                  image: "https://www.ayostack.dev/og-image.png?v=20260807",
+                  image: "https://www.ayostack.dev/toffee-3514~2.jpg",
                   jobTitle: "Full-Stack Developer & Product Engineer",
                   worksFor: {
                     "@type": "Organization",

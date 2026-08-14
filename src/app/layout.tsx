@@ -162,6 +162,7 @@ export default function RootLayout({
                   sameAs: [
                     "https://github.com/Ayostack-web",
                     "https://www.linkedin.com/in/ayokunleshittu/",
+                    "https://www.instagram.com/ayokunle_shittu/",
                     "https://x.com/ayle_2",
                   ],
                   knowsAbout: [
@@ -206,6 +207,7 @@ export default function RootLayout({
                   sameAs: [
                     "https://github.com/Ayostack-web",
                     "https://www.linkedin.com/in/ayokunleshittu/",
+                    "https://www.instagram.com/ayokunle_shittu/",
                     "https://x.com/ayle_2",
                   ],
                   areaServed: "NG",

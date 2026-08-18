@@ -6,23 +6,9 @@ import { motion } from "framer-motion";
 export default function Skills() {
   const certifications = [
     {
-      title: "Cloud Infrastructure & Virtualization",
+      title: "Professional Certifications",
       items: [
         { name: "Ubuntu Linux Professional", issuer: "Canonical", image: "/Canonical.png" },
-        { name: "Docker Foundations", issuer: "Docker, Inc.", image: "/docker_mark-logo_brandlogos.net_yetav.png" },
-      ],
-    },
-    {
-      title: "Data Engineering & Algorithmic Intelligence",
-      items: [
-        { name: "Data Engineering Foundations", issuer: "Astronomer", image: "/Astronomer.jpg" },
-        { name: "Machine Learning with Python", issuer: "Anaconda", image: "/anaconda.png" },
-      ],
-    },
-    {
-      title: "Communication & API Architecture",
-      items: [
-        { name: "Microsoft Azure AI Essentials Professional Certificate", issuer: "Microsoft", image: "/images.png" },
         { name: "Microservices Foundations Professional Certificate", issuer: "Kong", image: "/Kongtype_Logo.jpg" },
       ],
     },
@@ -47,7 +33,7 @@ export default function Skills() {
           Professional Certifications
         </motion.h2>
         <p className="text-center text-blue-200/70 max-w-2xl mx-auto mb-12 text-sm md:text-base">
-          Certifications that reflect my focus across infrastructure, distributed systems, data, and applied AI.
+          Certifications that reflect my focus across infrastructure and distributed systems.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">

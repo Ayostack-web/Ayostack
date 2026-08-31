@@ -6,10 +6,12 @@ import { motion } from "framer-motion";
 export default function Skills() {
   const certifications = [
     {
-      title: "Professional Certifications",
+      title: "Professional Development",
       items: [
-        { name: "Ubuntu Linux Professional", issuer: "Canonical", image: "/Canonical.png" },
-        { name: "Microservices Foundations Professional Certificate", issuer: "Kong", image: "/Kongtype_Logo.jpg" },
+        { name: "Docker Foundations Professional Certificate", issuer: "Docker, Inc", image: "/Docker_Mark_660x400.png" },
+        { name: "Microservices Foundations Professional Certificate by Kong", issuer: "Kong", image: "/Kongtype_Logo.jpg" },
+        { name: "Data Engineering Foundations Professional Certificate by Astronomer", issuer: "Astronomer", image: "/Astronomer_Logo.jpg" },
+        { name: "Ubuntu Linux Professional Certificate by Canonical", issuer: "Canonical", image: "/Canonical.png" },
       ],
     },
   ];
@@ -30,10 +32,10 @@ export default function Skills() {
           viewport={{ once: true }}
           className="text-3xl md:text-4xl font-bold mb-2 text-center premium-gradient-title"
         >
-          Professional Certifications
+          Professional Development
         </motion.h2>
         <p className="text-center text-blue-200/70 max-w-2xl mx-auto mb-12 text-sm md:text-base">
-          Certifications that reflect my focus across infrastructure and distributed systems.
+          Course-based professional development spanning microservices, containers, Linux, and data engineering.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
@@ -61,7 +63,7 @@ export default function Skills() {
                       className="w-7 h-7 rounded-md object-contain"
                     />
                     <span>
-                      {item.name} <span className="text-blue-300/60">({item.issuer})</span>
+                      {item.name}
                     </span>
                   </li>
                 ))}
